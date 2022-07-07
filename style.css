@@ -91,6 +91,7 @@ body{
 .donate-plan{
     text-align: center;
     padding:0px 80px;
+    margin-bottom: 80px;
 
 }
 .donate-plan-title h1{
@@ -124,7 +125,7 @@ body{
             font-weight: 500;
             margin-top: 10px;
             margin-bottom: 10px;
-            text-transform: capitalize;
+            
 }
 .single-catagories p{
     line-height: 26px;
@@ -139,13 +140,29 @@ body{
 }
 .team-work{
     display: flex;
+    padding: 0 80px;
+    margin-bottom: 100px;
 
+}
+.half-width{
+    padding-left:2%;
+    width:50%;
+}
+.half-width img{
+    width: 50%;
+}
+.half-width p{
+    line-height: 26px;
 }
 
 .contact{
     text-align:center;
 
 }
+.contact-title h2{
+        font-size: 40px;
+}
+
 .contact-from{
     background: #CDF0EA;
     width: 700px;
@@ -167,7 +184,6 @@ body{
     background: rgb(65,21,14);
     color:#fff;
     border: none;
-    text-transform: capitalize;
     margin-left: -5px;
     width: 130px;
 }
@@ -178,7 +194,6 @@ body{
     padding: 50px 0px;
 }
 .footer h2{
-    text-transform: capitalize;
     font-size: 30px;
     font-weight: 900;
     font-style: italic;
